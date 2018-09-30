@@ -3,16 +3,14 @@
 
 using namespace std;
 
-int main ()
-
+// This program is just an example one under VCS.
+int main()
 {
-    int a, b, c;
-    /* experimental version */
-    cout << "Enter two integer numbers" << endl;
-    cin >> a >> b;
-    cout << "Thats OK !" << endl;
-    // difference
-    c = a-b;
-    cout << "Result = " << c << endl;
-    return 0;
+    int a, b;
+    cout << "Enter A and B: ";
+    cin  >> a >> b;
+    cout << "A + B = " << a + b << '\n'
+    << "A - B = " << a - b << '\n'
+    << "A * B = " << a * b << '\n';
+return 0;
 }
