@@ -6,11 +6,12 @@ using namespace std;
 /* This program is just an example one under VCS.*/
 int main()
 {
-    int a, b;
+    int a, b, c;
     cout << "Enter A and B: ";
     cin  >> a >> b;
-    cout << "A + B = " << a + b << '\n'
-    << "A - B = " << a - b << '\n'
-    << "A / B = " << a / b << '\n';
+    c = a / b;
+    cout << "A + B = " << a + b << endl;
+    cout << "A - B = " << a - b << endl;
+    cout << "A / B = " << c << endl;
 return 0;
 }
