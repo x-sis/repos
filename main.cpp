@@ -3,7 +3,7 @@
 
 using namespace std;
 
-/* This program is just an example one under VCS.*/
+// This program is just an example one under VCS.
 int main()
 {
     int a, b;
@@ -11,6 +11,6 @@ int main()
     cin  >> a >> b;
     cout << "A + B = " << a + b << '\n'
     << "A - B = " << a - b << '\n'
-    << "A * B = " << a * b << endl;
+    << "A * B = " << a * b << '\n';
 return 0;
 }
