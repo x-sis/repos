@@ -7,6 +7,7 @@ int main ()
 
 {
     int a, b, c;
+    /* experimental version */
     cout << "Enter two integer numbers" << endl;
     cin >> a >> b;
     cout << "Thats OK !" << endl;
